@@ -11,9 +11,9 @@
 def valid_move?(board, index)
   
   if position_taken(board, index)
-    puts "yes"
+    true
   else 
-    puts "no"
+    false
   end
-endputs "yes"
+end
   
